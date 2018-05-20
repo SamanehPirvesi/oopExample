@@ -23,5 +23,18 @@ abstract class Person {
 	}
 	
 	abstract String sayHello();
+	
+	
+	
+	// example of overLoading
+	public String aaa() {
+		return "a";
+	}
+	public String aaa(String name) {
+		return name;
+	}
+	public int aaa(int name) {
+		return 0;
+	}
 
 }

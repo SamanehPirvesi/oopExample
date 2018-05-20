@@ -9,7 +9,7 @@ public class MainExample {
 		Teacher teacher=new Teacher(13,"samaneh",200,5);
 		System.out.println(teacher.getName());
 		
-
+		System.out.println(teacher.aaa("tdddhhy"));
 	}
 
 }
