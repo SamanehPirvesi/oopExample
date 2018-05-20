@@ -1,6 +1,6 @@
 package inheritanceExample;
 
-public class Person {
+abstract class Person {
 	private long id;
 
 	private String name;
@@ -22,5 +22,6 @@ public class Person {
 		this.name = name;
 	}
 	
+	abstract String sayHello();
 
 }

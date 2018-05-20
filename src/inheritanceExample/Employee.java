@@ -19,5 +19,7 @@ public class Employee extends Person{
 		this.salary = salary;
 	}
 
-	
+	String sayHello() {
+		return null;
+	}
 }

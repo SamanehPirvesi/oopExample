@@ -17,6 +17,17 @@ public class Student extends Person{
 	public void setMedia(int media) {
 		this.media = media;
 	}
+	
+	@Override
+	public String getName() {
+		return super.getName().toUpperCase();
+	}
+
+	
+	String sayHello() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
 
 
